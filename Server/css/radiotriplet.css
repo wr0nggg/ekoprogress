@@ -1,0 +1,229 @@
+/*------------------- WATER VOLUME RADIO TRIPLET ----------------------*/
+
+.toggle-radio-watervolume {
+  position: relative;
+  background: var(--background-tertiary);
+  margin: 0.75rem auto;
+  overflow: hidden;
+  padding: 0 !important;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  position: relative;
+  height: 38px;
+  width: 318px;
+}
+
+.toggle-radio-watervolume>* {
+  float: left;
+}
+
+.toggle-radio-watervolume input[type=radio] {
+  display: none;
+}
+
+.toggle-radio-watervolume label {
+  color: var(--white);
+  font-weight: bold;
+  z-index: 0;
+  display: block;
+  width: 100px;
+  height: 32px;
+  margin: 3px 3px;
+  margin-top: 7px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  cursor: pointer;
+  z-index: 1;
+  text-align: center;
+}
+
+.toggle-option-slider-watervolume {
+  width: 100px;
+  height: 32px;
+  position: absolute;
+  top: 3px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  -ms-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+#day-toggle-watervolume:checked~.toggle-option-slider-watervolume {
+  background: var(--primary);
+  left: 3px;
+}
+
+#month-toggle-watervolume:checked~.toggle-option-slider-watervolume {
+  background: var(--primary);
+  left: 110px;
+}
+
+#year-toggle-watervolume:checked~.toggle-option-slider-watervolume {
+  background: var(--primary);
+  left: 215px;
+}
+
+/*------------------- POWER CONSUMPTION RADIO TRIPLET ----------------------*/
+
+.toggle-radio-powerconsumption {
+  position: relative;
+  background: var(--background-tertiary);
+  margin: 0.75rem auto;
+  overflow: hidden;
+  padding: 0 !important;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  position: relative;
+  height: 38px;
+  width: 318px;
+}
+
+.toggle-radio-powerconsumption label {
+  color: var(--white);
+  font-weight: bold;
+  z-index: 0;
+  display: block;
+  width: 100px;
+  height: 32px;
+  margin: 3px 3px;
+  margin-top: 7px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  cursor: pointer;
+  z-index: 1;
+  text-align: center;
+}
+
+.toggle-radio-powerconsumption>* {
+  float: left;
+}
+
+.toggle-radio-powerconsumption input[type=radio] {
+  display: none;
+}
+
+.toggle-option-slider-powerconsumption {
+  width: 100px;
+  height: 32px;
+  position: absolute;
+  top: 3px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  -ms-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+#day-toggle-powerconsumption:checked~.toggle-option-slider-powerconsumption {
+  background: var(--primary);
+  left: 3px;
+}
+
+#month-toggle-powerconsumption:checked~.toggle-option-slider-powerconsumption {
+  background: var(--primary);
+  left: 110px;
+}
+
+#year-toggle-powerconsumption:checked~.toggle-option-slider-powerconsumption {
+  background: var(--primary);
+  left: 215px;
+}
+
+/*------------------- WATER CONTAMINATION RADIO TRIPLET ----------------------*/
+
+.toggle-radio-watercontamination {
+  position: relative;
+  background: var(--background-tertiary);
+  margin: 0.75rem auto;
+  overflow: hidden;
+  padding: 0 !important;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  position: relative;
+  height: 38px;
+  width: 318px;
+}
+
+.toggle-radio-watercontamination label {
+  color: var(--white);
+  font-weight: bold;
+  z-index: 0;
+  display: block;
+  width: 100px;
+  height: 32px;
+  margin: 3px 3px;
+  margin-top: 7px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  cursor: pointer;
+  z-index: 1;
+  text-align: center;
+}
+
+.toggle-radio-watercontamination>* {
+  float: left;
+}
+
+.toggle-radio-watercontamination input[type=radio] {
+  display: none;
+}
+
+.toggle-option-slider-watercontamination {
+  width: 100px;
+  height: 32px;
+  position: absolute;
+  top: 3px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  -ms-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+#day-toggle-watercontamination:checked~.toggle-option-slider-watercontamination {
+  background: var(--primary);
+  left: 3px;
+}
+
+#month-toggle-watercontamination:checked~.toggle-option-slider-watercontamination {
+  background: var(--primary);
+  left: 110px;
+}
+
+#year-toggle-watercontamination:checked~.toggle-option-slider-watercontamination {
+  background: var(--primary);
+  left: 215px;
+}
+
+/*------------------- OTHER STUFF ----------------------*/
+
+.day-toggle-span {
+  position: absolute;
+  left: 37px;
+}
+
+.month-toggle-span {
+  position: absolute;
+  left: 132px;
+}
+
+.year-toggle-span {
+  position: absolute;
+  left: 250px;
+}

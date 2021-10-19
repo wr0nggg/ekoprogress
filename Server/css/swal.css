@@ -1,0 +1,53 @@
+.swal-modal {
+  background-color: #27323CFA;
+}
+
+.swal-title {
+  color: whitesmoke;
+}
+
+.swal-icon--success__hide-corners {
+  background-color: transparent !important;
+}
+
+.swal-icon--success:after, .swal-icon--success:before {
+  background-color: transparent !important;
+}
+
+.swal-icon.swal-icon--success {
+  background-color: transparent !important;
+}
+
+.swal-icon.swal-icon--warning {
+  border-color: #FFBE0A !important;
+  border-width: 7px;
+  background-color: #27323CFA !important;
+}
+
+.swal-icon--warning__body {
+  background-color: #FFBE0A;
+}
+
+.swal-icon--warning__dot {
+  background-color: #FFBE0A;
+}
+
+.swal-overlay {
+  background-color: #191F23BF;
+}
+
+.swal-text {
+  color: whitesmoke !important;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.swal-button--confirm {
+  background-color: var(--primary);
+  font-weight: bold;
+}
+
+.swal-button--cancel {
+  background-color: whitesmoke;
+  font-weight: bold;
+}
